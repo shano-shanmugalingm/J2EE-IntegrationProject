@@ -35,7 +35,7 @@ public class SequenceService {
 	 * 
 	 * @return <code>{@link Response}</code> containing a boolean result indicating success or failiure of the request.
 	 * */
-	@Path("/name")
+	@Path("/addNumbers")
 	@POST
 	@Consumes(MediaType.APPLICATION_FORM_URLENCODED)
 	public Response push(@QueryParam("param1") int param1, @QueryParam("param2") int param2) {
